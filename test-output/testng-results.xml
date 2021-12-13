@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="4310" started-at="2021-12-11T15:49:13 IST" finished-at="2021-12-11T15:49:17 IST">
+    <groups>
+      <group name="regression">
+        <method signature="LoginTest.login2(java.util.HashMap)[pri:0, instance:test.LoginTest@3a80515c]" name="login2" class="test.LoginTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="Test" duration-ms="4310" started-at="2021-12-11T15:49:13 IST" finished-at="2021-12-11T15:49:17 IST">
+      <class name="test.LoginTest">
+        <test-method status="PASS" signature="login2(java.util.HashMap)[pri:0, instance:test.LoginTest@3a80515c]" name="login2" duration-ms="2885" started-at="2021-12-11T15:49:13 IST" data-provider="testData" finished-at="2021-12-11T15:49:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=secret_sauce, username=locked_out_user}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login2 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.LoginTest@3a80515c]" name="tearDown" is-config="true" duration-ms="199" started-at="2021-12-11T15:49:16 IST" finished-at="2021-12-11T15:49:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login2 status=SUCCESS method=LoginTest.login2(java.util.HashMap)[pri:0, instance:test.LoginTest@3a80515c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:test.LoginTest@3a80515c]" name="closeDriver" is-config="true" duration-ms="655" started-at="2021-12-11T15:49:16 IST" finished-at="2021-12-11T15:49:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
