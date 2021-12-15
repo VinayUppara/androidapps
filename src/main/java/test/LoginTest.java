@@ -26,7 +26,7 @@ public class LoginTest extends BaseClass {
 		return arrayObject;
 	}
 
-	@Test(dataProvider = "testData",groups= {"smoke"})
+	@Test(dataProvider = "testData")
 	public void login1(HashMap<String, String> testData) throws Exception {
 
 		driver.get(getProperty("url"));
@@ -75,7 +75,7 @@ public class LoginTest extends BaseClass {
 		 */
 	}
 
-	@Test(dataProvider = "testData",groups= {"regression"})
+	@Test(dataProvider = "testData")
 	public void login2(HashMap<String, String> data) throws Exception {
 
 		driver.get(getProperty("url"));
